@@ -1,9 +1,13 @@
 print("The Love Calculator is calculating your score...")
-'''Вводим имена мужика '''
+'''Вводим имена мужика и женщины, и чтобы сравнить их буквы, 
+нужно сперва их уменьшить то нижнего регистра. 
+Потом считаем символы есть ли такие. 
+потом суммируем результаты
+и проверяем условие на суммы  '''
 name1 = input('what is your name?')
 name2 = input('what is their name?') 
 
-combined_names = name1.lower() +name2.lower()
+combined_names = name1.lower() + name2.lower()
 
 t_count = combined_names.count('t')
 r_count = combined_names.count('r')
