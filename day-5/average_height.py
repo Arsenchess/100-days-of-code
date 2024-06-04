@@ -1,4 +1,4 @@
-student_heights = input('enter the student heigts ').split()
+student_heights = input("enter the student heigts ").split()
 for nasty in range(0, len(student_heights)):
     student_heights[nasty] = int(student_heights[nasty])
 
